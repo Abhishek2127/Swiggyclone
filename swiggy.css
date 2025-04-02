@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    background-color:aliceblue
+}
+
+#navbar{
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    border-bottom: #eaeaea solid; 
+    font-family:sans-serif;
+    color: #3c4052; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+   
+
+    
+}
+#left-sec{
+    display: flex;
+    width: 20%;
+    padding:10px 80px;
+   
+}
+#left-sec i {
+    position: relative;
+    top: 23.5px;
+    left :10px;
+}
+#left-sec i:hover{
+    background-color: rgb(255, 2, 2);
+    color: white;
+}
+#left-sec i:active{
+    background-color: rgb(195, 241, 10);
+    color: white;
+    
+
+}
+
+#left-sec h3{
+    padding-left:40px ;
+    font-size: 20px;
+     
+}
+#left-sec h3:hover{
+    color: coral;
+}
+#right-sec{
+    width: 60%;
+    padding-left: 170px;
+    
+}
+#right-secc{
+    display: flex;
+    
+}
+.arrange ,.para {
+    display: inline ;
+    padding-left: 2px;
+    
+}
+.arrange i ,.para {
+    position: relative;
+    top: 15px;
+}
+.arrange{
+    padding: 0px 30px;
+}
+.para:hover{
+    color: coral;
+
+}
+
+#wish {
+    display: flex;
+    flex-wrap:nowrap;  
+    margin-top: 5px;
+    margin-bottom: 30px;
+    overflow:auto;
+    width: 88%;
+    margin:0px 135px;
+    
+    
+}
+#secondprt h1{
+    margin-top: 100px;
+    padding-left: 130px;
+    font-family:sans-serif;
+ 
+
+   
+
+}
+#wish img{
+    margin-right: 20px;
+    border-radius: 15px;
+    border: #e0dede  solid 2px;
+    margin-top: 3px;
+    
+    transition: 0.2s ease 0s;
+
+}
+#wish img:hover{
+    transform: scale(0.95);
+    border:coral solid 2px
+    /*add the trasnform and trasition but when we use the transition on the outsie the pseudo 
+     class ,,it changes the size of the element  but when we use inside the psudo class it will
+      dont do any untill we hover on that  element */ 
+
+}
+
+
+#thirdpart{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 95px;
+    
+    
+}
+.img-edit{
+    margin-right: 30px;
+    padding: 25px;
+    
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    width: 180px;
+    
+
+    
+}
+.img-edit:hover{
+    /*
+    color:black;
+    background-color:hsl(17, 100%, 74%);
+    padding: 23px;
+    
+    */
+    transform: scale(1.1);
+    transition: 0.2s ease-in 0s;
+    overflow: hidden;
+
+    
+
+
+}
+
+.img-edit,.p1{
+    display: inline;
+    font-weight:bolder;
+}
+.img-edit img{
+    border-radius: 10px;
+    box-shadow: 2px 5px 17px #9d9a9a;
+    
+}
+
+
+.img-edit h3,p{
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  
+}
+.p2{
+    color:#828587;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#icon{
+    background-color:#14873e;
+    color: #ffffff;
+    border-radius: 50%;
+    padding:3px;
+    
+}
+
+ol{
+    list-style-type: none;
+}
+
+
+#middle-sec{
+    margin: 30px 130px;
+}
+
+#middle-sec h1{
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS' ;
+    
+}
+#middle-sec ol{
+    display: flex;
+    padding: 0%;
+}
+ol li{
+    background-color: #ffffff;
+    margin: 10px 16px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: #f0f0f0  solid 2px;
+    
+    
+   
+}
+#filt ,#sort{
+    margin: 1px;
+    
+}
+ol li:hover{
+    background-color:coral;
+    
+}
+.parent{
+    position: relative;
+}
+.child{
+    padding-left: 15px;
+    position: absolute;
+    top: -30px;
+    color: #ffffff;
+    font-weight: 900;
+}
